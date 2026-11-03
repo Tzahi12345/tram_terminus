@@ -43,6 +43,9 @@ tzahi_tram_terminus/      the mod folder (this is what goes into the game / onto
     mod.script.lua        adds the settings to the base underground stop as it loads
     stations/street/tram_terminus/
       tram_terminus.script.lua                     builds the stop and the loop
+      settings_slot.gs.lua / settings_slot.script.lua
+                                                   once per session, rebuilds stops built before the mod
+                                                   (settings unchanged) so they get the Configure button
       turnaround_params.lua                        the Turnaround and Loop Radius settings
       tram_loop_one_way_double.street_template.lua the one-way loop track
 ```
