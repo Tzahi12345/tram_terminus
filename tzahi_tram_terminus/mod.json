@@ -1,0 +1,14 @@
+{
+    "modId": "tzahi_tram_terminus",
+    "revision": 1,
+    "severityAdd": "None",
+    "severityRemove": "Critical",
+    "visible": true,
+    "cosmetic": false,
+    "dependencies": null,
+    "incompatibilities": null,
+    "params": null,
+    "runScript": {
+        "fileName": "tzahi_tram_terminus::/mod.script@runFn"
+    }
+}

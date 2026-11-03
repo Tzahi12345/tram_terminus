@@ -1,0 +1,14 @@
+# Windows / editors
+Thumbs.db
+desktop.ini
+*.lnk
+.vs/
+*.swp
+*~
+
+# Backups from image and 3D tools
+*.blend1
+*.bak
+
+# Everything inside tzahi_tram_terminus/ is uploaded to mod.io: keep source art (.blend, .psd, .fbx)
+# outside it, e.g. in sources/, which is tracked.
