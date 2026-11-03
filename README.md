@@ -53,6 +53,6 @@ New-Item -ItemType Junction -Path "<Steam>\userdata\<your Steam ID>\3493540\loca
 
 The game reloads staged mods when you return to the main menu, but construction scripts and track types are only read when a game is loaded. The game log is `<Steam>\userdata\<your Steam ID>\3493540\local\crash_dump\stdout.txt`.
 
-## Credits
+## Credits and license
 
-By Tzahi. Based on the base game underground stop by Urban Games.
+By Tzahi, released under the [MIT License](LICENSE). Based on the base game underground stop by Urban Games: the parts of `tram_terminus.script.lua` taken from it are not covered by the MIT License and remain subject to Urban Games' terms for Transport Fever 3 mods.
