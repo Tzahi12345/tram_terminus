@@ -28,7 +28,7 @@ Room needed past the end of the platforms:
 
 - The loop is one-way, so trams never meet oncoming trams in it. It has two tracks (so it fits the wide tunnel), and trams use one of them.
 - Stops keep their shape until they are rebuilt: changing any setting rebuilds a stop.
-- **Removing the mod** from a save with turnarounds: the stops go back to normal stops when rebuilt, but the loop track uses a track type from this mod. Back up your save first.
+- **Removing the mod** from a save with turnarounds: the save still loads and existing loops keep working, because the save stores the stops as built. Without the mod, stops lose the Turnaround setting, and a stop that gets rebuilt becomes a normal stop.
 
 ## Repository layout
 

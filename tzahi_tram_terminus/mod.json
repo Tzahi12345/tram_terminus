@@ -2,7 +2,7 @@
     "modId": "tzahi_tram_terminus",
     "revision": 1,
     "severityAdd": "None",
-    "severityRemove": "Critical",
+    "severityRemove": "Warning",
     "visible": true,
     "cosmetic": false,
     "dependencies": null,
