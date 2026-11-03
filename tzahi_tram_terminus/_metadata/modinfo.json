@@ -1,7 +1,7 @@
 {
     "name": "Underground Tram Turnaround",
     "summary": "Let tram lines end at underground stops: adds a turnaround loop option to the underground stop.",
-    "description": "Adds a Turnaround option to the base game underground stop, so tram lines can end there without building a separate turnaround.\n\nWorks on new stops and stops you already placed: select the stop, click Configure, and set Turnaround to End 1 or End 2 - pick the end that has no track connected (if nothing changes, try the other end). Trams then turn on a one-way loop past that end: both tracks continue in one wide tunnel, which forks into the loop. Off builds the normal stop.\n\nOptions:\n- Turnaround: Off, End 1 or End 2\n- Loop Radius: 10 to 30 m (smaller loops need less room)\n\nBased on the base game underground stop by Urban Games.",
+    "description": "Adds a Turnaround option to the base game underground stop, so tram lines can end there without building a separate turnaround.\n\nWorks on new stops and stops you already placed: select the stop, click Configure, and set Turnaround to End 1 or End 2 - pick the end that has no track connected (if nothing changes, try the other end). Trams then turn on a one-way loop past that end: both tracks continue in one wide tunnel, which forks into the loop. Off builds the normal stop.\n\nOptions:\n- Turnaround: Off, End 1 or End 2\n- Loop Radius: 10 to 30 m (smaller loops need less room)\n\nRemoving the mod from a save keeps existing loops working; stops just lose the Turnaround setting.\n\nSource code, feedback and bug reports: https://github.com/Tzahi12345/tram_terminus\n\nBased on the base game underground stop by Urban Games.",
     "authors": [
         {
             "name": "Tzahi",

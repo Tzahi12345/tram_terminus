@@ -35,7 +35,10 @@ Room needed past the end of the platforms:
 ```
 tzahi_tram_terminus/      the mod folder (this is what goes into the game / onto mod.io)
   mod.json                mod id, revision, run script
-  _metadata/modinfo.json  name, description, tags
+  _metadata/
+    modinfo.json          name, description, tags, link to this repo
+    description.html      the description shown on mod.io (overrides the one in modinfo.json)
+    0.png                 preview image (1920x1080)
   content/
     mod.script.lua        adds the settings to the base underground stop as it loads
     stations/street/tram_terminus/
