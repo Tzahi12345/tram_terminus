@@ -1,6 +1,6 @@
 {
     "modId": "tzahi_tram_terminus",
-    "revision": 1,
+    "revision": 2,
     "severityAdd": "None",
     "severityRemove": "Warning",
     "visible": true,
