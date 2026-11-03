@@ -1,0 +1,7 @@
+Underground Tram Turnaround
+Copyright (c) 2026 Tzahi, released under the MIT License (see LICENSE).
+
+Parts of tzahi_tram_terminus/content/stations/street/tram_terminus/tram_terminus.script.lua
+are taken from the Transport Fever 3 base game underground stop by Urban Games. Those parts
+are not covered by the MIT License; they remain subject to Urban Games' terms for Transport
+Fever 3 mods.
