@@ -12,7 +12,6 @@ Works on new stops and on stops you already placed:
 2. Set **Turnaround**:
    - **Off**: the normal stop, with track at both ends.
    - **End 1** / **End 2**: trams turn past that end. Pick the end with **no track connected**; if nothing changes, that end has track on it, so try the other one.
-   - **Show end 1**: the normal stop with a floating arrow above end 1, to see which end is which. Switch it off afterwards.
 3. Set **Loop Radius** (10 to 30 m). Smaller loops need less room.
 
 Changes apply immediately (the Configure panel shows no preview). Press **G** for underground view to see the loop. If there isn't room for the loop, nothing changes.
@@ -40,7 +39,7 @@ tzahi_tram_terminus/      the mod folder (this is what goes into the game / onto
   content/
     mod.script.lua        adds the settings to the base underground stop as it loads
     stations/street/tram_terminus/
-      tram_terminus.script.lua                     builds the stop, the loop and the end marker
+      tram_terminus.script.lua                     builds the stop and the loop
       turnaround_params.lua                        the Turnaround and Loop Radius settings
       tram_loop_one_way_double.street_template.lua the one-way loop track
 ```

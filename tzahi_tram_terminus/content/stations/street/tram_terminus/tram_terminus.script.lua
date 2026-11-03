@@ -401,11 +401,8 @@ return {
 
 		-- Turnaround: 1 = off (plain underground stop, track at both ends), 2 = turn at end 1 (-x), 3 = turn at end 2 (+x)
 		local turnaround = params.tramTurnaround or 1
-		-- 4 = "Show end 1": a normal stop (so it always builds) with a marker above end 1. The Configure panel
-		-- shows no preview, so this is how players can tell the ends apart before picking one.
-		-- (5 = the removed "Show end 2" from test saves: a normal stop)
-		local showEnd1 = turnaround == 4
 		if turnaround > 3 then
+			-- removed "Show end" options from development versions: a plain stop
 			turnaround = 1
 		end
 		if turnaround == 3 then
@@ -512,14 +509,6 @@ return {
 			id = "::/stations/street/underground_station/models/underground_station_end.mdl",
 			transf = transf.mul(transf.rotZ(math.rad(platformAngle + 180)), transf.transl(vec3.new(halfLength, 0, 0)))
 		}
-
-		if showEnd1 then
-			-- floating mission arrow on the surface above end 1 (the -x end)
-			mainSubconstruction.models[#mainSubconstruction.models + 1] = {
-				id = "::/assets/markers/marker_arrow.mdl",
-				transf = transf.mul(transf.rotZ(math.rad(platformAngle)), transf.transl(vec3.new(-halfLength - edgeBuffer, 0, 0)))
-			}
-		end
 
 		for i = 20, halfLength - 10, 10 do 
 			constructionutil.addModelsAndGroups(params, generatedData["extended"], mainSubconstruction, nil, transf.mul(transf.rotZ(math.rad(platformAngle)), transf.transl(vec3.new(i, 0, 0))))

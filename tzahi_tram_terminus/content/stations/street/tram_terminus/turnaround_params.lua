@@ -21,12 +21,11 @@ turnaround_params.makeTurnaroundParam = function()
 			key = "tramTurnaround",
 			name = _("Turnaround"),
 			tooltip = _("Close one end of the stop and let trams turn there.\nPick the end that has no track connected."),
-			values = { _("Off"), _("End 1"), _("End 2"), _("Show end 1") },
+			values = { _("Off"), _("End 1"), _("End 2") },
 			tooltips = {
 				_("Normal stop with track at both ends."),
 				_("Trams turn past end 1. If nothing changes, end 1 has track connected: try End 2."),
 				_("Trams turn past end 2. If nothing changes, end 2 has track connected: try End 1."),
-				_("Normal stop with a floating arrow above end 1, to see which end is which. Switch off afterwards."),
 			},
 			defaultIndex = 1,
 			postConstructionModifiable = true,
